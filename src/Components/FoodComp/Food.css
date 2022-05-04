@@ -1,0 +1,90 @@
+
+/* Booking section---Booking Section */
+.booking-Section{
+    /* background-color: rgb(240, 228, 102); */
+    background-color: rgb(242, 241, 223);
+    /* margin: 5%; */
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.book-form{
+    padding-left: 14%;
+}
+
+/* .gsdsds{
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 620px; 
+    width: 100%;
+} */
+
+/* Chef---Chef---Chef */
+.first-card{
+    margin-left: 5%;
+}
+
+.card{
+    /* border-radius: 15px 50px; */
+    width: 24rem;
+    height: 30rem;
+    margin-bottom: 5%;
+    margin-right: 1rem;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    position: relative;
+    /* border-color: #f8f9fa; */    
+}
+.card-body{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(33, 35, 35, 0.245); */
+    /* background: linear-gradient(to bottom, rgba(249, 250, 253, 0.52), rgba(95, 27, 77, 0.73)); */
+    /* background: radial-gradient(#e66465, #9198e5); */
+    background: radial-gradient(#282323, #595a5cc9);
+}
+
+/* ---Menu---Menu---Menu---Menu */
+.menu-nav{
+    padding: 0 10%;
+}
+
+/* Contact Us---Contact Us---Contact Us */
+.contact{
+    padding-bottom: 30px;
+    margin-left: 30px;
+    font-family: 'Philosopher', sans-serif;
+
+}
+.contact-icon{
+    font-size: 1.6rem;
+    margin-top: 12px;
+    padding: 0 0;
+    height: 37px;
+    color: rgb(137, 138, 138);
+}
+.address{
+    padding: 12px 0 0;
+    line-height: normal;
+    font-size: 1.2rem;
+    font-family: 'Philosopher', sans-serif;
+}
+.address1{
+    line-height: normal;
+    font-size: 1.2rem;
+    /* font-family: 'Philosopher', sans-serif; */
+    font-family: 'Philosopher', sans-serif;
+}
+.getInTouch{
+    font-size: 2.6rem;
+    font-weight: 700;
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Beau Rivage', cursive; */
+    /* font-family: 'Philosopher', sans-serif; */
+    font-family: 'Cormorant Garamond', serif;
+}
