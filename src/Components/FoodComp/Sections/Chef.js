@@ -24,25 +24,25 @@ const Chef = (props) => {
           <div class="carousel-item active" data-bs-interval="10000">
             <div className="row text-center">
               <div
-                class="card col-6 first-card" style={{backgroundImage:`url(${chef})`,}}
+                class="card chef-card col-6 first-card" style={{backgroundImage:`url(${chef})`,}}
               >
                 {/* <img src={chef} class="card-img-top chef-image" alt="..." /> */}
-                <div class="card-body">
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card col-6" style={{backgroundImage: `url(${chef6})`,}}>
+              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef6})`,}}>
                 {/* <img src={chef6} class="card-img-top chef-image" alt="..." /> */}
-                <div class="card-body">
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card col-6" style={{backgroundImage: `url(${chef3})`,}}>
-                <div class="card-body">
+              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef3})`,}}>
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
@@ -53,22 +53,22 @@ const Chef = (props) => {
 
           <div class="carousel-item" data-bs-interval="2000">
             <div className="row text-center">
-              <div class="card first-card col-6" style={{backgroundImage: `url(${chef4})`,}}>
-                <div class="card-body">
+              <div class="card chef-card first-card col-6" style={{backgroundImage: `url(${chef4})`,}}>
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card col-6" style={{backgroundImage: `url(${chef3})`,}}>
-                <div class="card-body">
+              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef3})`,}}>
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card col-6" style={{backgroundImage: `url(${chef5})`,}}>
-                <div class="card-body">
+              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef5})`,}}>
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
@@ -78,22 +78,22 @@ const Chef = (props) => {
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <div className="row">
-              <div class="card first-card col-6" style={{backgroundImage: `url(${chef2})`,}}>
-                <div class="card-body">
+              <div class="card chef-card first-card col-6" style={{backgroundImage: `url(${chef2})`,}}>
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card col-6" style={{backgroundImage: `url(${chef})`,}}>
-                <div class="card-body">
+              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef})`,}}>
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card col-6" style={{backgroundImage: `url(${chef2})`,}} >
-                <div class="card-body">
+              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef2})`,}} >
+                <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />

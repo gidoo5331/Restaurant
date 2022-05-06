@@ -19,12 +19,13 @@
     width: 100%;
 } */
 
+
 /* Chef---Chef---Chef */
 .first-card{
     margin-left: 5%;
 }
 
-.card{
+.chef-card{
     /* border-radius: 15px 50px; */
     width: 24rem;
     height: 30rem;
@@ -37,7 +38,7 @@
     position: relative;
     /* border-color: #f8f9fa; */    
 }
-.card-body{
+.chef-body{
     position: absolute;
     color: rgb(255, 255, 255);
     bottom: 0;
@@ -53,13 +54,46 @@
 .menu-nav{
     padding: 0 10%;
 }
+.navL{
+    color: rgb(246, 71, 71);
+    font-size: 18px;
+}
+
+.navL:hover{
+    color: rgb(247, 143, 143);
+    font-size: 18px;
+}
+
+/* About Us ----About Us---About Us */
+.about{
+    padding: 10% 6%;
+}
+.about-title{
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+
+}
+.about-text{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.ab-txt-con{
+    padding: 6% 0;
+}
+.about-img{
+width: 100%;
+}
+
+
 
 /* Contact Us---Contact Us---Contact Us */
 .contact{
     padding-bottom: 30px;
     margin-left: 30px;
     font-family: 'Philosopher', sans-serif;
-
+    
 }
 .contact-icon{
     font-size: 1.6rem;
@@ -87,4 +121,36 @@
     /* font-family: 'Beau Rivage', cursive; */
     /* font-family: 'Philosopher', sans-serif; */
     font-family: 'Cormorant Garamond', serif;
+}
+
+
+/* Card---Card----Card */
+.food-img{
+    /* background-image: url("../../Media/images/food.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 60%;
+    position: relative;
+    /* width: 80%; */
+}
+.food-price{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    color: rgb(16, 16, 15);
+    background-color: white;
+    /* border: 100cm; */
+    border-radius: 10% 0 0 10%;
+    padding: 5px 12px;
+
+}
+.card-b{
+    width: 100%;
+    height: 35rem;
+    /* border: 0; */
+}
+.ingredients{
+    margin-bottom: 0;
 }

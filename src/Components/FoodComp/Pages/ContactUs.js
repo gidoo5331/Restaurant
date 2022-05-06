@@ -1,10 +1,19 @@
 import React from 'react'
 import { GiGreenhouse, GiPostOffice} from "react-icons/gi";
 import { MdOutlinePhoneAndroid, MdOutlineMail} from "react-icons/md";
+import NavHoc from '../../../hoc/NavHoc';
+import JumboText from '../Navbar/JumboText';
+import NavbarComp from '../Navbar/Navbar';
 
 const ContactUs = () => {
   return (
     <>
+    <JumboText 
+    top="GET IN TOUCH"
+    title="Contact Us" 
+    text="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type 
+    specimen book. "/>
         <div className="row" style={{paddingTop : "10%",paddingBottom : "10%", }}>
         <div className="col-12 col-md-6 col-lg-6 border rounded contact">
            <p className="getInTouch">Get In Touch</p>  

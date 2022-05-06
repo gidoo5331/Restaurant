@@ -44,8 +44,8 @@ const Footer = () => {
                 <p className='f-title'>Contact Us</p>
                 <ul className='footer-ul'>
         <li><GoLocation className='footer-icon'/>Greater Accra, Ghana </li>
-        <li className="email"><MdOutlineMail className='footer-icon'/> <a className='footer-links' href="mailto:mail@palison5331@gmail.com">palison5331@gmail.com</a></li>
-        <li><BsTelephone className='footer-icon'/> <a className='footer-links' href="tel:+277099220">+233 277099220</a></li>
+        <li className="email"><MdOutlineMail className='footer-icon'/> <a className='footer-links' href="mailto:mail@gideonbempong533@gmail.com">gideonbempong533@gmail.com</a></li>
+        <li><BsTelephone className='footer-icon'/> <a className='footer-links' href="tel:+277099220">+233 501652108</a></li>
       </ul>
             </div>
         </div>

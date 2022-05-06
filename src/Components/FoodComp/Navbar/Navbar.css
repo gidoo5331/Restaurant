@@ -18,3 +18,21 @@
     font-size: 35px;
     margin-right: 10px;
 }
+.jumbo-top{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.jumbo-title{
+    font-size: 76px;
+    font-weight: 800;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+    margin-bottom: 0;
+}
+.jumbo-text{
+    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 20px;
+
+}

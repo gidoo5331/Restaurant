@@ -11,12 +11,12 @@ import {
 } from "react-icons/fa";
 
 
-const NavbarComp = () => {
+const NavbarComp = (props) => {
   return (
-    <div className="top-div position-relative"  
-    style={{backgroundImage:  "url(" + food + ")", backgroundPosition: "center",
-    backgroundSize: "cover", 
-    backgroundRepeat: "no-repeat", height: "620px", width: "100%",}}>
+    // <div className="top-div position-relative"  
+    // style={{backgroundImage:  "url(" + food + ")", backgroundPosition: "center",
+    // backgroundSize: "cover", 
+    // backgroundRepeat: "no-repeat", height: "620px", width: "100%",}}>
       <div>
         <nav class="navbar navbar-expand-lg navbar-dark">
         {/* <nav class="navbar navbar-expand-lg navbar-light bg-light"> */}
@@ -41,7 +41,7 @@ const NavbarComp = () => {
                   </Link>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li>
-                      <Link class="dropdown-item" to="menu">
+                      <Link class="dropdown-item" to="/menu">
                         Menu
                       </Link>
                     </li>
@@ -66,46 +66,47 @@ const NavbarComp = () => {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link me-2" to="/">
+                  <Link class="nav-link me-2" to="/gallery">
                     Gallery
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link me-2" to="/">
+                  <Link class="nav-link me-2" to="/about">
                     About
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link me-2" to="contact">
+                  <Link class="nav-link me-2" to="/contact">
                     Contact
                   </Link>
                 </li>
               </ul>
             </div>
-                  <Link to="/"><button type="butt me "btn btn-primary btn-sm w-10>BOOK A TABLE</button> </Link>
+                  <Link to="/"><button type="button" className="btn btn-outline-primary btn-sm w-10">BOOK A TABLE</button> </Link>
           </div>
         </nav>
 
-        <div className="text-center text ">
-          <p>ENJOY YOUR HEALTHY DELICIOUS MEAL</p>
-          <h2> Treat Yourself</h2>
-          <p>
-            Another free template by Colorlib. Far far away, behind the word
-            mountains, far from the countries Vokalia and Consonantia, there
-            live the blind texts.
+        {/* <div className="text-center text ">
+          <h2> {props.top}</h2>
+          <p className="jumbo-title">{props.title}</p>
+          <p className="jumbo-text">
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+           when an unknown printer took a galley 
+          of type and scrambled it to make a type specimen book.
           </p>
-          {/* Social meadia icons */}
+          {/* Social meadia icons *
       <div className='social-icons-container position-absolute bottom-0 end-0'>
       <>
-      <Link className='icons' to=''><FaFacebook/></Link>
-      <Link className='icons' to=''><FaTwitter/></Link>
-      <Link className='icons' to=''><FaInstagram/></Link>
-      <Link className='icons' to=''><FaLinkedinIn/></Link>
-      <Link className='icons' to=''><FaWhatsapp/></Link>
+      {/* <Link className='icons' to="https://www.facebook.com/"><FaFacebook/></Link> *
+      <a className='icons' href="https://www.facebook.com/"><FaFacebook/></a>
+      <a className='icons' href=""><FaTwitter/></a>
+      <a className='icons' href="https://www.instagram.com/"><FaInstagram/></a>
+      <a className='icons' href="http://www.linkedin.com/in/gideon-bem-706838225"><FaLinkedinIn/></a>
+      <a className='icons' href=""><FaWhatsapp/></a>
         </>
-      </div>
-        </div>
-      </div>
+      </div> 
+        </div>*/}
+      {/* </div> */}
 
     </div>
   );

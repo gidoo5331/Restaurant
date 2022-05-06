@@ -15,21 +15,28 @@ import Desserts from "./Components/FoodComp/Sections/Menus/Desserts";
 import Drinks from "./Components/FoodComp/Sections/Menus/Drinks";
 import Wine from "./Components/FoodComp/Sections/Menus/Wine";
 import Card from "./Components/FoodComp/Sections/Menus/Card";
+import NavHoc from "./hoc/NavHoc";
+import Gallery from "./Components/FoodComp/Pages/Gallery";
+import About from "./Components/FoodComp/Pages/About";
 
 function App() {
   return (
     <div className="App">
-      <NavbarComp />
+      {/* <NavHoc/> */}
+      {/* <NavbarComp /> */}
       <Routes>
         {/* Food---Food---Food */}
         <Route exact path="/" element={<Home />} />
         <Route path="blog" element={<BookTable />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="about" element={<About />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="card" element={<Card />} />
         {/* <Route path="menu" element={<Menu />} /> */}
 
          <Route path="/menu" element={<Menu />} >
           <Route index element={<Breakfast />} />
+          <Route path="breakfast" element={<Breakfast />} />
           <Route path="lunch" element={<Lunch />} />
           <Route path="dinner" element={<Dinner />} />
           <Route path="desserts" element={<Desserts />} />
