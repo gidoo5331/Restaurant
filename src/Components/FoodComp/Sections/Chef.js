@@ -1,14 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import girl from "../../../Media/images/girl.jpg";
-import girl2 from "../../../Media/images/girl2.jpg";
 import chef from "../../../Media/images/chef.jpg";
 import chef2 from "../../../Media/images/chef2.jpg";
 import chef3 from "../../../Media/images/chef3.jpg";
 import chef4 from "../../../Media/images/chef4.jpg";
 import chef5 from "../../../Media/images/chef5.jpg";
 import chef6 from "../../../Media/images/chef6.jpg";
-import keyboard from "../../../Media/images/keyboard.png";
 import Social from "./Social";
 import "../Food.css"
 

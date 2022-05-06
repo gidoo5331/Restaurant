@@ -1,9 +1,8 @@
 import React from 'react'
 import JumboText from '../Navbar/JumboText'
 import food from "../../../Media/images/food.jpg"
-import girl from "../../../Media/images/girl.jpg"
 import w1 from "../../../Media/images/w1.jpg"
-import old from "../../../Media/images/oldbook.jpg"
+import d4 from "../../../Media/images/d4.jpg"
 import bf2 from "../../../Media/images/bf2.jpg"
 import chef from "../../../Media/images/chef.jpg"
 import bf1 from "../../../Media/images/bf1.jpg"
@@ -60,7 +59,7 @@ const Gallery = () => {
           height: 1000
       },
       {
-          src: old,
+          src: d4,
           width: 1600,
           height: 1200
       },

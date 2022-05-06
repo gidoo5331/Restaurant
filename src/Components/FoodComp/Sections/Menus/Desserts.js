@@ -1,7 +1,6 @@
 import React from 'react'
-import food from "../../../../Media/images/food.jpg"
-import bf from "../../../../Media/images/bf.jpg"
-import bf1 from "../../../../Media/images/bf1.jpg"
+import d01 from "../../../../Media/images/d02.jpg"
+import bf1 from "../../../../Media/images/d03.jpg"
 import bf2 from "../../../../Media/images/bf2.jpg"
 import bf3 from "../../../../Media/images/bf3.jpg"
 import bf4 from "../../../../Media/images/bf4.jpg"
@@ -15,11 +14,11 @@ const Desserts = () => {
     <>
         <div className='row'>
           <div className='col col-12 col-lg-4 col-md-6 '>
-            <Card image={bf} price="200" name="Banku" ingredients="Chicken Fried Rice | Crispy Chicken fry
+            <Card image={d01} price="200" name="Banku" ingredients="Chicken Fried Rice | Crispy Chicken fry
               Weastern Pickle | Mixed Vegetable " drink="Soft Drinks" />
           </div>
           <div className='col col-12 col-lg-4 col-md-6'>
-            <Card image={bf1} price="300" name="Avocado toast"  ingredients="Fried Egg | Crispy Chicken fry | Toasted bread
+              <Card image={bf4} price="10" name="Poached Egg"  ingredients="Fried Egg | Crispy Chicken fry | Toasted bread
             | Tomato | Ketchup" drink="Soft Drinks"/>
           </div>
           <div className='col col-12 col-lg-4 col-md-6'>
@@ -31,7 +30,7 @@ const Desserts = () => {
             | Tomato | Ketchup" drink="Soft Drinks"/>
           </div>
           <div className='col-12 col-lg-4 col-md-6'>
-            <Card image={bf4} price="10" name="Poached Egg"  ingredients="Fried Egg | Crispy Chicken fry | Toasted bread
+            <Card image={bf1} price="300" name="Avocado toast"  ingredients="Fried Egg | Crispy Chicken fry | Toasted bread
             | Tomato | Ketchup" drink="Soft Drinks"/>
           </div>
           <div className='col-12 col-lg-4 col-md-6'>
