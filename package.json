@@ -1,6 +1,5 @@
 {
-  "name": "Gid's restaurant",
-  "homepage": "https://gidoo5331.github.io/Restaurant/",
+  "name": "Gid",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
