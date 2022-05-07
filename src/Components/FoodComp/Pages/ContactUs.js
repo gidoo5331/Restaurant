@@ -1,5 +1,5 @@
 import React from 'react'
-import { GiGreenhouse, GiPostOffice} from "react-icons/gi";
+import { GiPostOffice} from "react-icons/gi";
 import { MdOutlinePhoneAndroid, MdOutlineMail} from "react-icons/md";
 import NavHoc from '../../../hoc/NavHoc';
 import JumboText from '../Navbar/JumboText';
