@@ -5,7 +5,7 @@ import "../../FoodComp/Food.css";
 const BookTable = () => {
   return (
     <>
-      <div className="row booking-Section">
+      <div className="row booking-Section" data-aos="zoom-in"  data-aos-delay="200">
         <div className="col-12 col-lg-6 col-md-6 mt-4 image1">
             <img src={girl2} class="d-block w-100 pb-4 rounded" alt="..."/>
         </div>

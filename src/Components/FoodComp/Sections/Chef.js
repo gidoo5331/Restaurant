@@ -30,7 +30,7 @@ const Chef = (props) => {
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef6})`,}}>
+              <div class="card chef-card col-6 phone" style={{backgroundImage: `url(${chef6})`,}}>
                 {/* <img src={chef6} class="card-img-top chef-image" alt="..." /> */}
                 <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
@@ -38,7 +38,7 @@ const Chef = (props) => {
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef3})`,}}>
+              <div class="card chef-card col-6 phone" style={{backgroundImage: `url(${chef3})`,}}>
                 <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
@@ -57,14 +57,14 @@ const Chef = (props) => {
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef3})`,}}>
+              <div class="card chef-card col-6 phone" style={{backgroundImage: `url(${chef3})`,}}>
                 <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef5})`,}}>
+              <div class="card chef-card col-6 phone" style={{backgroundImage: `url(${chef5})`,}}>
                 <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
@@ -82,14 +82,14 @@ const Chef = (props) => {
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef})`,}}>
+              <div class="card chef-card col-6 phone" style={{backgroundImage: `url(${chef})`,}}>
                 <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>
                  <Social size="1.4rem" color="#ccbd68" margin="3%" />
                 </div>
               </div>
-              <div class="card chef-card col-6" style={{backgroundImage: `url(${chef2})`,}} >
+              <div class="card chef-card col-6 phone" style={{backgroundImage: `url(${chef2})`,}} >
                 <div class="card-body chef-body">
                   <p class="card-text">Gideon Bempong</p>
                   <p class="">Chef Master</p>

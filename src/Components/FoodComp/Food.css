@@ -1,3 +1,7 @@
+/* Home Page Menu */
+.home-menu{
+    padding: 5%;  
+}
 
 /* Booking section---Booking Section */
 .booking-Section{
@@ -64,26 +68,38 @@
     font-size: 18px;
 }
 
+
 /* About Us ----About Us---About Us */
 .about{
     padding: 10% 6%;
+}
+.about-body{
+
 }
 .about-title{
     font-size: 45px;
     font-weight: 300;
     font-family: 'Noto Serif', serif;
     font-style: italic;
-
 }
-.about-text{
+.about-text1{
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
+    /* float: left; */
+    /* width: 50%; */
+}
+.about-text2{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    /* float: right; */
+    /* width: 50%; */
+    margin-top: 12%;
 }
 .ab-txt-con{
     padding: 6% 0;
 }
 .about-img{
-width: 100%;
+/* width: 40%; */
 }
 
 
@@ -153,4 +169,42 @@ width: 100%;
 }
 .ingredients{
     margin-bottom: 0;
+}
+
+@media (max-width: 778px) {
+ /* Chef---Chef---chef */
+    .phone{
+    display: none;
+ }
+
+ 
+ /* About Us---About Us---About Us      */
+ /* .about-body{
+     /* padding: 60% 0%;  *
+    position: relative;
+}  */
+ .about-title{
+    font-size: 33px;
+    font-weight: 300;
+}
+.about-text1{
+    font-size: 19px;
+    /* float: left; */
+    /* width: 50%; */
+    /* position: relative; */
+}
+.about-text2{
+    font-size: 20px;
+    /* float: right; */
+    /* width: 50%; */
+    margin-top: 5%;
+}
+.ab-txt-con{
+    /* padding: 6% 0; *  */
+}
+.about-img{
+    /* float: right; */
+width: 100%;
+}
+
 }
